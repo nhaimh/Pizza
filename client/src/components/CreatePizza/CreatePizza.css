@@ -1,0 +1,36 @@
+.createPizza{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 270px;
+    background-color: #d1411e;
+    width: 431px;
+    height: 390px;
+    margin: auto;
+    margin-top: 25px;
+    border: 2px solid black;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    /* margin-bottom: 280px; */
+    padding: 20px;
+}
+
+input[type=number] {
+    color:white;
+    font-size: 16px;
+    background-color: #d1411e;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type=number]:focus {
+    outline: none;
+  	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }

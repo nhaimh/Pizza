@@ -1,0 +1,138 @@
+.usersDiv {
+    background-color: rgb(221 220 220);
+    width: 800px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.usersDiv:hover {
+    background-color: rgb(243, 243, 243);
+    width: 800px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.usersInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#delUserBtn {
+    background-color: rgb(223, 15, 15);
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+#delUserBtn:hover {
+    background-color: rgb(247 6 6);
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#txtDel {
+    margin: auto;
+    margin-top: -4px;
+    font-weight: bold;
+    color: white;
+}
+
+#txtDel:hover {
+    margin: auto;
+    margin-top: -4px;
+    font-weight: bold;
+    color: black;
+}
+
+#admin {
+    width: 60px;
+    background-color: green;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    padding: 2px;
+}
+
+#editor {
+    width: 60px;
+    background-color: rgb(145 155 6);
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    padding: 2px;
+}
+
+#client {
+    width: 60px;
+    background-color: rgb(38, 0, 128);
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    padding: 2px;
+}
+
+#userName {
+    width: 93px;
+}
+
+
+
+/* Buttons Logic */
+#allBtns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    padding: 6px;
+}
+
+/* #allBtns:hover {
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    background-color: rgb(180, 177, 177);
+    padding: 6px;
+} */
+
+.changeRoleBtn {
+    background: none;
+    border: none;
+    font-size: 11px;
+    width: 60px;
+}
+
+.changeRoleBtn:hover {
+    /* background-color: lime; */
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 890px) {
+    .usersDiv {
+        width: 550px;
+    }
+
+    .usersDiv:hover {
+        width: 550px;
+    }
+}

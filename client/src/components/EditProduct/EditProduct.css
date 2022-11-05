@@ -1,0 +1,26 @@
+#editForm {
+    /* display: block; */
+    margin: auto;
+    padding-left: 30px;
+
+}
+
+.editContent {
+
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 270px;
+    background-color: #d1411e;
+    width: 431px;
+    height: 390px;
+    margin: auto;
+    margin-top: 25px;
+    border: 2px solid black;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    /* margin-bottom: 280px; */
+    padding: 20px;
+
+
+}

@@ -1,0 +1,176 @@
+.navDiv {
+    /* background-color: #d1411e; */
+    overflow: hidden;
+    /* border-bottom: 1px solid rgb(153, 152, 152); */
+
+
+    background: rgb(209, 65, 30);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(209, 65, 30, 1) 0%, rgba(198, 60, 29, 1) 51%, rgba(153, 40, 22, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(209, 65, 30, 1) 0%, rgba(198, 60, 29, 1) 51%, rgba(153, 40, 22, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(209, 65, 30, 1) 0%, rgba(198, 60, 29, 1) 51%, rgba(153, 40, 22, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1411e', endColorstr='#992816', GradientType=0);
+    /* IE6-9 */
+
+    border-bottom: 1px solid black;
+}
+
+.navDiv a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navDiv a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+.navDiv #logout:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.navDiv #feedback:hover {
+    color: rgb(241, 226, 8);
+    font-size: 20px;
+}
+
+.Logo {
+    display: flex;
+    width: 300px;
+    float: left;
+}
+
+.Logo>p {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: fangsong;
+}
+
+.Logo>img {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.allLinks {
+    display: flex;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#cart {
+    background-image: url('../../../../public/img/cart-black.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    margin-right: -20px;
+    cursor: pointer;
+}
+
+#cart:active {
+    background-image: url('../../../../public/img/cart-white.png');
+    width: 35px;
+    height: 35px;
+    margin-right: -20px;
+    cursor: pointer;
+}
+
+#numCart {
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 16px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    margin-right: 20px;
+    /* margin-top: -60px; */
+    padding: 3px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    display: block;
+    cursor: pointer;
+}
+
+.userName {
+    font-size: 20px;
+    margin-right: 12px;
+    margin-top: 0px;
+
+}
+
+#userNameLink {
+    color: black;
+}
+
+#userNameLink:hover {
+    color: #f2f2f2;
+
+}
+
+@media only screen and (max-width: 788px) {
+    .allLinks {
+        display: flex;
+        float: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .navDiv {
+        /* background-color: #d1411e; */
+        overflow: hidden;
+        /* border-bottom: 1px solid rgb(153, 152, 152); */
+
+
+        background: rgb(209, 65, 30);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(209, 65, 30, 1) 0%, rgba(198, 60, 29, 1) 51%, rgba(153, 40, 22, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(209, 65, 30, 1) 0%, rgba(198, 60, 29, 1) 51%, rgba(153, 40, 22, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(209, 65, 30, 1) 0%, rgba(198, 60, 29, 1) 51%, rgba(153, 40, 22, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1411e', endColorstr='#992816', GradientType=0);
+        /* IE6-9 */
+
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #numCart {
+        background-color: red;
+        color: white;
+        width: 20px;
+        height: 16px;
+        border-radius: 20px;
+        position: relative;
+        text-align: center;
+        /* margin-right: 20px; */
+        margin-top: -60px;
+        padding: 3px;
+        padding-bottom: 8px;
+        border: 1px solid black;
+        display: block;
+        cursor: pointer;
+        margin-bottom: 22px;
+    }
+}

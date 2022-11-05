@@ -1,0 +1,35 @@
+.registerContent {
+    
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 270px;
+    background-color: #d1411e;
+    width: 431px;
+    height: 328px;
+    margin: auto;
+    margin-top: 25px;
+    border: 2px solid black;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    /* margin-bottom: 280px; */
+    padding: 20px;
+}
+
+
+.loaderRegister {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #030303; 
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 14px;
+    margin-left: 77px;   
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

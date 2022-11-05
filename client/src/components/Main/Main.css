@@ -1,0 +1,205 @@
+.gridDiv {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 260px;
+    justify-content: center;
+    padding-top: 35px;
+
+}
+
+
+.carousel {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#imgLeft {
+    float: left;
+    margin-right: 100px;
+    margin-top: 120px;
+    cursor: pointer;
+    width: 40px;
+    height: 80px;
+}
+
+#imgRight {
+    float: right;
+    margin-top: 120px;
+    margin-left: 100px;
+    cursor: pointer;
+    width: 40px;
+    height: 80px;
+}
+
+#list {
+    /* font-size: 22px;
+    background-color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    border: 3px solid black ;
+    border-radius: 12px; */
+
+    font-size: 22px;
+    background-color: rgb(245 241 235);
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#list:hover {
+    font-size: 22px;
+    background-color: rgb(196, 193, 189);
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+/* #divList {
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    width: 200px;
+    font-size: 22px;
+    background-color: rgb(245 241 235);
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+#divList:hover {
+    margin-top: 70px;
+    font-size: 22px;
+    background-color: rgb(196, 193, 189);
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+#allProductsDiv {
+    display: none;
+}
+
+#productsList {
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    width: 200px;
+    font-size: 22px;
+    background-color: rgb(245 241 235);
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#productsList:hover {
+    margin-top: 70px;
+    font-size: 22px;
+    background-color: rgb(196, 193, 189);
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#logoCarousel {
+    width: 360px;
+    margin-left: 210px;
+    margin-top: 22px;
+
+}
+
+@media only screen and (max-width: 1073px) {
+
+    .gridDiv {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows: 260px;
+        justify-content: center;
+        padding-top: 35px;
+
+    }
+
+    #imgRight {
+        float: right;
+        margin-top: 126px;
+        margin-left: 27px;
+        cursor: pointer;
+        width: 40px;
+        height: 80px;
+    }
+
+    #imgLeft {
+        float: left;
+        margin-top: 126px;
+        margin-right: 27px;
+        cursor: pointer;
+        width: 40px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+
+    .carousel {
+        display: none;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #divList {
+        display: none;
+        text-align: center;
+        margin-top: 70px;
+
+        font-size: 22px;
+        background-color: rgb(245 241 235);
+        font-weight: bold;
+        text-decoration: underline;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+
+    }
+
+    #allProductsDiv {
+        display: block;
+    }
+
+    /* .gridDiv {
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 280px;
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+    #imgRight {
+        float: right;
+        margin-top: 400px;
+        margin-left: 52px;
+        cursor: pointer;
+        width: 40px;
+        height: 80px;
+    }
+    #imgLeft {
+        float: left;
+        margin-top: 400px;
+        margin-right: 52px;
+        cursor: pointer;
+        width: 40px;
+        height: 80px;
+    } */
+}

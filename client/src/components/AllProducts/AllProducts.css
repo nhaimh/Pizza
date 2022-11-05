@@ -1,0 +1,57 @@
+.gridDivList{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+
+.allLists{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+.divList{
+   
+    text-align: center;
+    margin-top: -42px;
+    
+}
+
+.list{
+
+    font-size: 22px;
+    background-color: rgb(245 241 235);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin:auto;
+    margin-top: 52px;
+    width: 200px;
+}
+
+
+@media only screen and (max-width: 800px){
+    .gridDivList{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 250px 250px;
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+
+}
+
+@media only screen and (max-width: 537px){
+    .gridDivList{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 250px;
+        justify-content: center;
+        padding-top: 35px;
+    }
+}

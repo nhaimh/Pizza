@@ -1,0 +1,19 @@
+.headerBar {
+    width: 100%;
+    height: 140px;
+}
+
+.headerBar>img {
+    width: 100%;
+    height: 140px;
+}
+
+@media only screen and (max-width: 670px){
+    .headerBar>img {
+        width: 100%;
+        height: 80px;
+    }
+    .navDiv{
+        margin-top: -60px;
+    }
+}

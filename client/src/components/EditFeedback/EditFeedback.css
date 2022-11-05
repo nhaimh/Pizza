@@ -1,0 +1,63 @@
+.editFeedback {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#992816+0,d1411e+100 */
+    background: rgb(153, 40, 22);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(153, 40, 22, 1) 0%, rgba(209, 65, 30, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(153, 40, 22, 1) 0%, rgba(209, 65, 30, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(153, 40, 22, 1) 0%, rgba(209, 65, 30, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#992816', endColorstr='#d1411e', GradientType=0);
+    /* IE6-9 */
+
+    background-color: #d1411e;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    /* margin-bottom: 280px; */
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+#textAreaStyle{
+   resize: none;
+   border: 2px solid black;
+   height: 80px;
+   padding: 10px;
+}
+
+#submitBtnEditFeedback{
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#submitBtnEditFeedback:hover{
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(34, 33, 33);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#formEditFeedback{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
