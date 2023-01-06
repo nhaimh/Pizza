@@ -4,9 +4,9 @@ const Product = ({ product, increase, decrease, deleteFunction }) => {
   return (
     <div className="divProduct">
       <div className="infoDiv">
-        <img src={product.imageUrl}></img>
+        <img alt="pizza" src={product.imageUrl}></img>
         <p id="titlePizza">{product.title}</p>
-        <p id="descriptionProduct">{product.description}</p>
+        {/* <p id="descriptionProduct">{product.description}</p> */}
         <p>
           <b>Price:</b> {product.price} $
         </p>

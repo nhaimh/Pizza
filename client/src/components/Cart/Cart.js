@@ -46,6 +46,7 @@ const Cart = (props) => {
           <div className="BuyModalContent">
             <p id="buyTextModal">Your payment was successful!</p>
             <img
+              alt=""
               id="payment"
               src="../../../../img/payment.png"
               width={45}
